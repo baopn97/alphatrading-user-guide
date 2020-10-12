@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sử dụng AlphaTrading on AlphaTrading</title>
+    <link>/docs/usage/</link>
+    <description>Recent content in Sử dụng AlphaTrading on AlphaTrading</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>vn-vn</language>
+    
+	<atom:link href="/docs/usage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Smart Watchlist</title>
+      <link>/docs/usage/smart-watchlist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/usage/smart-watchlist/</guid>
+      <description>Smart Watchlist  AlphaTrading cung cấp tính năng lọc cổ phiếu thông minh Smart Watchlist cho quý khách hàng nhằm tìm ra các cổ phiếu tiềm năng, hỗ trợ quý khách ra quyết định đầu tư.
+Với tính năng này, quý khách có thể thiết lập bộ lọc chứng khoán theo khẩu vị đầu tư của mình, hoặc áp dụng bộ lọc của các nhà đầu tư nổi tiếng trên thế giới để tìm kiếm các mã chứng khoán tốt trên thị trường.</description>
+    </item>
+    
+    <item>
+      <title>Bản tin buổi sáng</title>
+      <link>/docs/usage/morning-brieft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/usage/morning-brieft/</guid>
+      <description>Cập nhật các tin tức hàng sáng mới nhất do Pinetree tổng hợp Với mục tiêu không chỉ cung cấp ứng dụng chuyên nghiệp hàng đầu để quý khách có thể giao dịch chứng khoán mà còn các tiện ích hỗ trợ quý khách ra quyết định đầu tư chính xác. Bộ phận phân tích đầu tư của Pinetree đã tổng hợp các tin tức kinh tế vi mô, vĩ mô trong nước và trên toàn thế giới.</description>
+    </item>
+    
+    <item>
+      <title>Danh sách theo dõi</title>
+      <link>/docs/usage/watchlist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/usage/watchlist/</guid>
+      <description>Danh sách theo dõi  Danh sách theo dõi trên AlphaTrading cho phép thực hiện các thao tác nhanh với những mã cổ phiếu quý khách quan tâm. Mặc định với tài khoản chứng khoán mới đăng ký tại Pinetree, trong danh sách theo dõi sẽ có sẵn 1 mã Chứng khoán mẫu.
+Bảng giá quen thuộc  AlphaTrading được thiết kế và phát triển hướng tới trải nghiệm Giao dịch chứng khoán hoàn toàn trên thiết bị di động nên chúng tôi mang tới khái niệm danh sách theo dõi tối giản tập trung vào những chỉ số quan trọng nhất của một mã Chứng khoán.</description>
+    </item>
+    
+    <item>
+      <title>Chi tiết mã Chứng khoán</title>
+      <link>/docs/usage/stockdetail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/usage/stockdetail/</guid>
+      <description>Chi tiết mã Chứng khoán  AlphaTrading cập nhật các chỉ số real-time những mã Chứng khoán trên thị trường. Quý khách có thể tra cứu mọi chỉ số liên quan của một mã Chứng khoán. Thông tin được cấu trúc theo các nhóm nội dung phù hợp và chia thành các mục.
+Tổng quan  Là màn hình cung cấp những thông tin quan trọng nhất có thể đưa tới quyết định giao dịch một mã Chứng khoán.</description>
+    </item>
+    
+    <item>
+      <title>Cảnh báo chứng khoán</title>
+      <link>/docs/usage/alert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/usage/alert/</guid>
+      <description>Hướng dẫn tạo Cảnh báo và nhận thông báo về mã cổ phiếu AlphaTrading cho phép quý khách tạo cảnh báo cho các mã chứng khoán mà khách hàng quan tâm. Để bắt đầu tạo cảnh báo về mã cổ phiếu (Alert), quý khách có thể thao tác tác vụ này bất cứ lúc nào, kể cả khi chưa đăng nhập tài khoản.
+Chọn biểu tượng quả chuông ở góc màn hình để xem và tạo Cảnh báo cổ phiếu</description>
+    </item>
+    
+    <item>
+      <title>Quản lý tài sản</title>
+      <link>/docs/usage/asset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/usage/asset/</guid>
+      <description>Quản lý tài sản  Tài sản trên AlphaTrading được quy định bao gồm danh mục đầu tư đang nắm giữ, tiền mặt và các hình thức sở hữu khác.
+Danh mục đầu tư  Màn hình hiển thị danh sách những mã Chứng khoán đang nắm giữ và giá trị hiện tại (dựa trên giá tham chiếu ở thời điểm hiện tại). Trong đó giá khớp lệnh của Cổ phiếu là giá trung bình trên tổng số các giao dịch mua.</description>
+    </item>
+    
+    <item>
+      <title>Theo dõi thị trường</title>
+      <link>/docs/usage/topmover/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/usage/topmover/</guid>
+      <description>Danh sách biến động nhiều nhất  AlphaTrading tổng hợp tự động real-time những mã Chứng khoán biến động nhiều nhất thị trường theo những điều kiện nhất định. Đây là những danh sách tự động được xây dựng từ hệ thống nhằm mục đích theo dõi và tham khảo, Quý khách không thể thực hiện thay đổi, thêm / xoá mã Chứng khoán trong những danh sách này.
+Mặc định, AlphaTrading liệt kê các mã Chứng khoán biến động đạt điều kiện thống kê trên sàn HOSE, quý khách có thể lựa chọn sàn giao dịch khác bằng cách nhấn vào danh sách sàn Chứng khoán và chọn sàn mong muốn.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Smart Watchlist  AlphaTrading cung cấp tính năng lọc cổ phiếu thông minh Smart Watchlist cho quý khách hàng nhằm tìm ra các cổ phiếu tiềm năng, hỗ trợ quý khách ra quyết định đầu tư.
+Với tính năng này, quý khách có thể thiết lập bộ lọc chứng khoán theo khẩu vị đầu tư của mình, hoặc áp dụng bộ lọc của các nhà đầu tư nổi tiếng trên thế giới để tìm kiếm các mã chứng khoán tốt trên thị trường."><meta property="og:title" content="Smart Watchlist" />
+<meta property="og:description" content="Smart Watchlist  AlphaTrading cung cấp tính năng lọc cổ phiếu thông minh Smart Watchlist cho quý khách hàng nhằm tìm ra các cổ phiếu tiềm năng, hỗ trợ quý khách ra quyết định đầu tư.
+Với tính năng này, quý khách có thể thiết lập bộ lọc chứng khoán theo khẩu vị đầu tư của mình, hoặc áp dụng bộ lọc của các nhà đầu tư nổi tiếng trên thế giới để tìm kiếm các mã chứng khoán tốt trên thị trường." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/usage/smart-watchlist/" />
+
+<title>Smart Watchlist | AlphaTrading</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.d1f62d9466bf8cb4a1d552100a5f284566e46ac24f1ea24eca4287ea33e2ed9d.css" integrity="sha256-0fYtlGa/jLSh1VIQCl8oRWbkasJPHqJOykKH6jPi7Z0=">
+
+
+<script defer src="/en.search.min.5850c9cfc6145155323c8c86b61c02199fae0a3226af8ae02539defe1d341b45.js" integrity="sha256-WFDJz8YUUVUyPIyGthwCGZ&#43;uCjImr4rgJTne/h00G0U="></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>AlphaTrading</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+
+
+
+
+
+ 
+  
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Thông tin chung</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/basics/installation/" class="">Cài đặt</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/basics/signin/" class="">Đăng nhập</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Hướng dẫn đặt lệnh</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/dat-lenh/place_order/" class="">Đặt lệnh chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/dat-lenh/xac-thuc/" class="">Xác thực hai lớp</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/dat-lenh/huy_sua_lenh/" class="">Hủy/ sửa lệnh</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/dat-lenh/so_lenh/" class="">Sổ lệnh</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Sử dụng AlphaTrading</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/smart-watchlist/" class="active">Smart Watchlist</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/morning-brieft/" class="">Bản tin buổi sáng</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/watchlist/" class="">Danh sách theo dõi</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/stockdetail/" class="">Chi tiết mã Chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/alert/" class="">Cảnh báo chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/asset/" class="">Quản lý tài sản</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/topmover/" class="">Theo dõi thị trường</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Tiện ích tài chính</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/ultilities/" class="">Giới thiệu</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/chuyen-ck-noi-bo/" class="">Chuyển chứng khoán giữa các TK Chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/ckhoan/" class="">Chuyển khoản ngân hàng</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/chuyen-tien-noi-bo/" class="">Chuyển tiền giữa các TK Chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/margin/" class="">Công nợ ký quỹ (margin)</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/cashadvance/" class="">Ứng trước tiền bán</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Tài khoản Chứng khoán</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/account/fundin/" class="">Nạp tiền vào tài khoản Chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/account/fundout/" class="">Rút tiền từ tài khoản Chứng khoán</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+  </ul>
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+
+  Menu
+
+  <label for="toc-control">
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="smart-watchlist">Smart Watchlist</h1>
+<hr>
+<p>AlphaTrading cung cấp tính năng lọc cổ phiếu thông minh <strong>Smart Watchlist</strong> cho quý khách hàng nhằm tìm ra các cổ phiếu tiềm năng, hỗ trợ quý khách ra quyết định đầu tư.</p>
+<p>Với tính năng này, quý khách có thể thiết lập bộ lọc chứng khoán theo khẩu vị đầu tư của mình, hoặc áp dụng bộ lọc của các nhà đầu tư nổi tiếng trên thế giới để tìm kiếm các mã chứng khoán tốt trên thị trường.</p>
+<h2 id="tạo-mới-bộ-lọc-cá-nhân">Tạo mới bộ lọc cá nhân</h2>
+<hr>
+<p>AlphaTrading được thiết kế và phát triển hướng tới trải nghiệm Giao dịch chứng khoán hoàn toàn trên thiết bị di động nên chúng tôi đã tối ưu hóa mọi tác vụ cho khách hàng, đặc biệt là việc tìm kiếm được những cổ phiếu tiềm năng trên thị trường.</p>
+<p>Với tính năng này, quý khách có thể nhanh chóng lọc ra được những mã cổ phiếu theo điều kiện của mình.</p>
+<ol>
+<li>
+<p>Từ màn hình <strong>DS theo dõi</strong>, tại tab <strong>Smart Watchlist</strong> nhấn vào nút <strong>Tạo Watchlist</strong></p>
+<p>
+  <img src="/assets/smart.png" alt="watchlist_expand" />
+</p>
+</li>
+<li>
+<p>Lựa chọn các điều kiện lọc, bao gồm:</p>
+<ul>
+<li>
+<p>Khả năng sinh lời</p>
+</li>
+<li>
+<p>Động lực tăng giá</p>
+</li>
+<li>
+<p>Định giá</p>
+<p>Quý khách có thể đặt tên cho Smart Watchlist của mình để tiện theo dõi.</p>
+<p>Quý khách cũng có thể sử dụng bộ lọc của các nhà đầu tư nổi tiếng để điều chỉnh phương thức lọc cho mình.</p>
+<p>
+  <img src="/assets/smart-3.png" alt="watchlist_expand" />
+</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Nhập các điều kiện lọc tương ứng với mỗi tiêu chí sau đó ấn <strong>Tạo watchlist</strong></p>
+<p>
+  <img src="/assets/smart-1.png" alt="watchlist_expand" />
+</p>
+</li>
+<li>
+<p>Hệ thống sẽ lọc ra các mã cổ phiếu tương ứng với bộ lọc mà quý khách thiết lập. Quý khách <strong>có thể thay đổi điều kiện lọc</strong> bất kỳ lúc nào bằng nút thay đổi tại góc phải màn hình.</p>
+<p>Với bộ lọc thông minh Smart Watchlist của Pinetree, quý khách <strong>luôn được cập nhật danh mục cổ phiếu mới nhất đáp ứng bộ lọc tại mọi thời điểm.</strong></p>
+<p>
+  <img src="/assets/smart-4.png" alt="watchlist_expand" />
+</p>
+</li>
+</ol>
+<h2 id="sử-dụng-bộ-lọc-của-các-nhà-đầu-tư-nổi-tiếng">Sử dụng bộ lọc của các nhà đầu tư nổi tiếng</h2>
+<hr>
+<ol>
+<li>
+<p>Từ màn hình <strong>DS theo dõi</strong>, tại tab <strong>Smart Watchlist</strong> nhấn vào các bộ lọc của những nhà đầu tư nổi tiếng, bao gồm <strong>Philip Fisher và Walter Schloss</strong></p>
+<p>
+  <img src="/assets/smart-5.png" alt="Đăng nhập" />
+</p>
+</li>
+<li>
+<p>Danh sách các mã được lọc ra theo bộ lọc của các nhà đầu tư nổi tiếng được <strong>cập nhật hàng ngày</strong>.</p>
+<p>Quý khách có thể xem các tin tức liên quan tới các mã cổ phiếu có trong danh sách. Tin tức này được Pinetree Securities liên kết với các tòa báo chính thống giúp mang tới thông tin chính xác và hữu ích nhất cho quý khách.</p>
+<p>
+  <img src="/assets/smart-6.png" alt="Đăng nhập" />
+</p>
+<p>
+  <img src="/assets/smart-7.png" alt="Đăng nhập" />
+</p>
+</li>
+</ol>
+<h2 id="chỉnh-sửa-bộ-lọc-cá-nhân">Chỉnh/ sửa bộ lọc cá nhân</h2>
+<hr>
+<ol>
+<li>
+<p>Từ bộ lọc cá nhân đã được tạo, quý khách có thể thay đổi điều kiện lọc ban đầu.</p>
+<p>
+  <img src="/assets/smart-8.png" alt="Đăng nhập" />
+</p>
+<p>
+  <img src="/assets/smart-4.png" alt="Đăng nhập" />
+</p>
+</li>
+<li>
+<p>Sau đó quý khách có thể điều chỉnh lại bộ lọc theo ý muốn.</p>
+<p>
+  <img src="/assets/smart-10.png" alt="Đăng nhập" />
+</p>
+</li>
+</ol>
+<h2 id="xoá-bộ-lọc">Xoá bộ lọc</h2>
+<hr>
+<p>Để xóa bộ lọc, quý khách vào bộ lọc cá nhân như hướng dẫn trên và ấn vào nút <strong>Xóa</strong></p>
+<p>
+  <img src="/assets/smart-11.png" alt="Đăng nhập" />
+</p>
+</article>
+ 
+      
+<div class="my-pagging">
+    <div class="left-half">
+        
+    </div>
+    <div class="right-half">
+        
+        <p><a href="/docs/usage/morning-brieft/"> Bản tin buổi sáng →</a></p>
+        
+    </div>
+</div>
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

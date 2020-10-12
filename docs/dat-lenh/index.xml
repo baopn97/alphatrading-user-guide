@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hướng dẫn đặt lệnh on AlphaTrading</title>
+    <link>/docs/dat-lenh/</link>
+    <description>Recent content in Hướng dẫn đặt lệnh on AlphaTrading</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>vn-vn</language>
+    
+	<atom:link href="/docs/dat-lenh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Đặt lệnh chứng khoán</title>
+      <link>/docs/dat-lenh/place_order/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/dat-lenh/place_order/</guid>
+      <description>Đặt lệnh giao dịch Chứng khoán  Quý khách có thể đặt lệnh giao dịch chứng khoán trên ứng dụng AlphaTrading
+Tìm kiếm cổ phiếu và đặt lệnh  Quý khách có thể vào màn hình đặt lệnh từ nút đặt lệnh nhanh sau đó tìm kiếm mã chứng khoán muốn đặt lệnh.
+ Hoặc đặt lệnh bằng cách Tìm kiếm cổ phiếu ở góc phải màn hình
+ Tại đây Quý khách có thể tìm kiếm cổ phiếu theo mã, ngành, hoặc theo top biến động thị trường.</description>
+    </item>
+    
+    <item>
+      <title>Xác thực hai lớp</title>
+      <link>/docs/dat-lenh/xac-thuc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/dat-lenh/xac-thuc/</guid>
+      <description>Xác thực hai lớp  Để bảo vệ tài khoản khách hàng, Pinetree Securities áp dụng hình thức xác thực hai lớp với các loại giao dịch trên ứng dụng AlphaTrading như sau:
+ Thay đổi mật khẩu. Giao dịch đặt, hủy, sửa lệnh mua/bán cổ phiếu. Rút tiền từ tài khoản chứng khoán. Ứng trước tiền bán. Chuyển tiền/chứng khoán nội bộ. Trả nợ lãi vay margin (ký quỹ).  Các hình thức xác thực hai lớp đang được Pinetree áp dụng gồm có:</description>
+    </item>
+    
+    <item>
+      <title>Hủy/ sửa lệnh</title>
+      <link>/docs/dat-lenh/huy_sua_lenh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/dat-lenh/huy_sua_lenh/</guid>
+      <description>Hủy/ sửa lệnh  Quý khách truy cập màn hình Sổ lệnh để xem và chọn lệnh muốn hủy/ sửa lệnh.
+  Theo quy định giao dịch của Trung tâm lưu ký chứng khoán, quý khách chỉ có thể sửa được lệnh trên sàn HNX/ UPCOM (Sàn giao dịch chứng khoán Hà Nội), không được sửa lệnh trên sàn HSX (Sàn giao dịch chứng khoán TP HCM)
+   Màn hình sửa/ hủy lệnh đối với cổ phiếu được giao dịch trên Sàn HNX   Màn hình hủy lệnh (không được sửa) đối với cổ phiếu được giao dịch trên Sàn HSX   </description>
+    </item>
+    
+    <item>
+      <title>Sổ lệnh</title>
+      <link>/docs/dat-lenh/so_lenh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/dat-lenh/so_lenh/</guid>
+      <description>Sổ lệnh  Quý khách có thể xem các lệnh đã đặt trong ngày và quá khứ trong tab Sổ Lệnh
+Sổ lệnh trong ngày  Quý khách có thể xem lại các lệnh và trạng thái lệnh đã đặt trong ngày tại màn Lệnh trong ngày
+ Để xem chi tiết lệnh đã đặt, Quý khách hãy ấn vào từng lệnh chi tiết
+ Tại màn hình này, quý khách có thể hủy/ sửa lệnh đã đặt theo quy định của Sàn GDCK.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tài khoản Chứng khoán on AlphaTrading</title>
+    <link>/docs/account/</link>
+    <description>Recent content in Tài khoản Chứng khoán on AlphaTrading</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>vn-vn</language>
+    
+	<atom:link href="/docs/account/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nạp tiền vào tài khoản Chứng khoán</title>
+      <link>/docs/account/fundin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/account/fundin/</guid>
+      <description>Nạp tiền  Đây là số tài khoản mà bạn dùng để chuyển tiền vào tài khoản chứng khoán. Chúng tôi đảm bảo giữ an toàn mọi thông tin mà bạn cung cấp theo quy định của pháp luật. Pinetree hỗ trợ tính năng nạp tiền nhanh vào TK Chứng khoán bằng phương thức chuyển khoản qua tài khoản ngân hàng.
+Quý khách có thể thực hiện sao chép nhanh nội dung chuyển khoản, số tài khoản Chứng khoán cũng như tên chủ tài khoản theo mẫu tiêu chuẩn trong ứng dụng AlphaTrading</description>
+    </item>
+    
+    <item>
+      <title>Rút tiền từ tài khoản Chứng khoán</title>
+      <link>/docs/account/fundout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/account/fundout/</guid>
+      <description>Rút tiền từ tài khoản Chứng khoán  Quý khách có thể thực hiện rút tiền từ tài khoản Chứng khoán bằng cách liên hệ bộ phận Chăm sóc khách hàng hoặc thực hiện yêu cầu trực tiếp trên ứng dụng AlphaTrading.
+Để thực hiện Rút tiền, xin vui lòng thực hiện theo hướng dẫn chi tiết tại đây </description>
+    </item>
+    
+  </channel>
+</rss>

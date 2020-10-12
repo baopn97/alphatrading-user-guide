@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Xác thực hai lớp  Để bảo vệ tài khoản khách hàng, Pinetree Securities áp dụng hình thức xác thực hai lớp với các loại giao dịch trên ứng dụng AlphaTrading như sau:
+ Thay đổi mật khẩu. Giao dịch đặt, hủy, sửa lệnh mua/bán cổ phiếu. Rút tiền từ tài khoản chứng khoán. Ứng trước tiền bán. Chuyển tiền/chứng khoán nội bộ. Trả nợ lãi vay margin (ký quỹ).  Các hình thức xác thực hai lớp đang được Pinetree áp dụng gồm có:"><meta property="og:title" content="Xác thực hai lớp" />
+<meta property="og:description" content="Xác thực hai lớp  Để bảo vệ tài khoản khách hàng, Pinetree Securities áp dụng hình thức xác thực hai lớp với các loại giao dịch trên ứng dụng AlphaTrading như sau:
+ Thay đổi mật khẩu. Giao dịch đặt, hủy, sửa lệnh mua/bán cổ phiếu. Rút tiền từ tài khoản chứng khoán. Ứng trước tiền bán. Chuyển tiền/chứng khoán nội bộ. Trả nợ lãi vay margin (ký quỹ).  Các hình thức xác thực hai lớp đang được Pinetree áp dụng gồm có:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/dat-lenh/xac-thuc/" />
+
+<title>Xác thực hai lớp | AlphaTrading</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.d1f62d9466bf8cb4a1d552100a5f284566e46ac24f1ea24eca4287ea33e2ed9d.css" integrity="sha256-0fYtlGa/jLSh1VIQCl8oRWbkasJPHqJOykKH6jPi7Z0=">
+
+
+<script defer src="/en.search.min.5850c9cfc6145155323c8c86b61c02199fae0a3226af8ae02539defe1d341b45.js" integrity="sha256-WFDJz8YUUVUyPIyGthwCGZ&#43;uCjImr4rgJTne/h00G0U="></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>AlphaTrading</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+
+
+
+
+
+ 
+  
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Thông tin chung</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/basics/installation/" class="">Cài đặt</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/basics/signin/" class="">Đăng nhập</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Hướng dẫn đặt lệnh</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/dat-lenh/place_order/" class="">Đặt lệnh chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/dat-lenh/xac-thuc/" class="active">Xác thực hai lớp</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/dat-lenh/huy_sua_lenh/" class="">Hủy/ sửa lệnh</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/dat-lenh/so_lenh/" class="">Sổ lệnh</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Sử dụng AlphaTrading</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/smart-watchlist/" class="">Smart Watchlist</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/morning-brieft/" class="">Bản tin buổi sáng</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/watchlist/" class="">Danh sách theo dõi</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/stockdetail/" class="">Chi tiết mã Chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/alert/" class="">Cảnh báo chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/asset/" class="">Quản lý tài sản</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/topmover/" class="">Theo dõi thị trường</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Tiện ích tài chính</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/ultilities/" class="">Giới thiệu</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/chuyen-ck-noi-bo/" class="">Chuyển chứng khoán giữa các TK Chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/ckhoan/" class="">Chuyển khoản ngân hàng</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/chuyen-tien-noi-bo/" class="">Chuyển tiền giữa các TK Chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/margin/" class="">Công nợ ký quỹ (margin)</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/cashadvance/" class="">Ứng trước tiền bán</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Tài khoản Chứng khoán</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/account/fundin/" class="">Nạp tiền vào tài khoản Chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/account/fundout/" class="">Rút tiền từ tài khoản Chứng khoán</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+  </ul>
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+
+  Menu
+
+  <label for="toc-control">
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="xác-thực-hai-lớp">Xác thực hai lớp</h1>
+<hr>
+<p>Để bảo vệ tài khoản khách hàng, Pinetree Securities áp dụng hình thức xác thực hai lớp với các loại giao dịch trên ứng dụng AlphaTrading như sau:</p>
+<ul>
+<li>Thay đổi mật khẩu.</li>
+<li>Giao dịch đặt, hủy, sửa lệnh mua/bán cổ phiếu.</li>
+<li>Rút tiền từ tài khoản chứng khoán.</li>
+<li>Ứng trước tiền bán.</li>
+<li>Chuyển tiền/chứng khoán nội bộ.</li>
+<li>Trả nợ lãi vay margin (ký quỹ).</li>
+</ul>
+<p>Các hình thức xác thực hai lớp đang được Pinetree áp dụng gồm có:</p>
+<ul>
+<li><strong>SMS OTP</strong>: Quý khách sẽ được nhận tin nhắn qua số điện thoại đã đăng ký tại Pinetree Securities.</li>
+<li><strong>Smart OTP:</strong> Quý khách truy cập ứng dụng Smart OTP của Pinetree Securities để lấy mã xác thực được tạo tự động.</li>
+<li><strong>Matrix</strong> : Quý khách được Pinetree Securities cung cấp bảng ma trận.</li>
+</ul>
+<p>
+  <img src="/assets/xac-thuc-2.png" alt="watchlist_expand" />
+</p>
+<h2 id="sms-otp">SMS OTP</h2>
+<hr>
+<p>Quý khách sẽ được nhận tin nhắn OTP gửi tới số điện thoại đã đăng ký tại Pinetree Securities. Quý khách sử dụng mã OTP này nhập vào trường yêu cầu để thực hiện các giao dịch.</p>
+<p>Lưu ý: <strong>Quý khách sẽ chịu chi phí SMS (880 đồng/ tin nhắn), khoản thu này sẽ được hiển thị tại mục Phí trong Quản lý tài sản và thu hàng tháng.</strong></p>
+<p>
+  <img src="/assets/xac-thuc.png" alt="watchlist_expand" />
+</p>
+<h2 id="smart-otp">Smart OTP</h2>
+<hr>
+<p>Quý khách cần cài <strong>ứng dụng SmartOTP</strong> để có thể sử dụng hình thức xác thực này.</p>
+<p>Quý khách có thể tải nhanh thông qua đường dẫn tương ứng với thiết bị đang sử dụng:</p>
+<p><strong>Tải Pinetree SmartOTP cho thiết bị Android</strong></p>
+<p>
+  <a href="https://play.google.com/store/apps/details?id=com.smartotp">
+  <img src="/assets/ic-playstore.png" alt="Tải từ Play Store" />
+</a>
+</p>
+<p><strong>Tải Pinetree SmartOTP cho thiết bị iOS</strong></p>
+<p>
+  <a href="https://apps.apple.com/de/app/pinetree-smartotp/id1533032149">
+  <img src="/assets/ic-appstore.png" alt="Tải từ Play Store" />
+</a>
+</p>
+<p>Sau khi cài đặt, quý khách thực hiện các bước như sau để kích hoạt <strong>ứng dụng SmartOTP</strong>:</p>
+<ol>
+<li>Màn hình Splash giới thiệu về ứng dụng. Quý khách vui lòng chọn &ldquo;Bắt đầu&rdquo; để vào bước tiếp theo.</li>
+</ol>
+<p>
+  <img src="/assets/SmartOTP.png" alt="watchlist_expand" />
+</p>
+<ol start="2">
+<li>
+<p>Đối với lần đầu đăng nhập, quý khách vui lòng nhập tài khoản/ mật khẩu đã được cấp bởi Pinetree.  (Thông tin về Tài khoản này có thể được tìm thấy trong Email hoặc SMS của quý khách). Quý khách vui lòng click “Đăng nhập” để vào bước tiếp theo.</p>
+<p>
+  <img src="/assets/SmartOTP1.png" alt="watchlist_expand" />
+</p>
+</li>
+<li>
+<p>Quý khách vui lòng đọc kỹ “Thoả thuận và điều kiện sử dụng” trước khi chọn “Đồng ý”.</p>
+<p>
+  <img src="/assets/SmartOTP2.png" alt="watchlist_expand" />
+</p>
+</li>
+<li>
+<p>Quý khách sẽ nhận được tin nhắn SMS có chứa mã OTP (gửi về số điện thoại đã sử dụng khi đăng ký tài khoản mới tại Pinetree Securities).</p>
+<p>Trong trường hợp không nhận được tin nhắn, quý khách vui lòng click vào nút “Gửi lại OTP”. Sau khi quý khách đã nhập OTP chính xác, hệ thống tự động chuyển sang màn hình tiếp theo.</p>
+<p>
+  <img src="/assets/SmartOTP3.png" alt="watchlist_expand" />
+</p>
+</li>
+<li>
+<p>Với lần đăng nhập đầu tiên, quý khách cần tạo mã PIN gồm 4 chữ số. Từ lần đăng nhập thứ 2, quý khách chỉ cần dùng mã PIN này để đăng nhập ứng dụng SmartOTP.</p>
+<p>
+  <img src="/assets/SmartOTP4.png" alt="watchlist_expand" />
+</p>
+</li>
+<li>
+<p>Quý khách vui lòng nhập lại mã PIN lần 2 để đảm bảo tính chính xác. Trong trường hợp hai mã PIN giống nhau, hệ thống sẽ tự động chuyển sang bước tiếp theo.</p>
+<p>
+  <img src="/assets/SmartOTP5.png" alt="watchlist_expand" />
+</p>
+</li>
+<li>
+<p>Sau các bước trên, mã OTP của quý khách sẽ được hiển thị tự động. Mã này sẽ thay đổi sau mỗi 30s nhằm đảm bảo tính bảo mật, quý khách vui lòng theo dõi đường màu vàng để biết thời gian còn lại của mã OTP. Quý khách có thể chọn nút “Sao chép” để copy nhanh mã này.</p>
+<p>
+  <img src="/assets/SmartOTP6.png" alt="watchlist_expand" />
+</p>
+</li>
+</ol>
+<p>Sau khi kích hoạt thành công hình thức xác thực hai bước SmartOTP, quý khách có thể sử dụng mã xác thực trên để thực hiện các nghiệp vụ trên AlphaTrading.</p>
+<p>
+  <img src="/assets/xac-thuc-3.png" alt="watchlist_expand" />
+</p>
+<h2 id="ma-trận">Ma trận</h2>
+<hr>
+<p>Quý khách có thể sử dụng phương thức xác thực khác được hỗ trợ bởi Pinetree Securities là Ma trận (Matrix). Với phương thức này, quý khách sẽ được cung cấp mã Ma trận kể từ khi đăng ký mở tài khoản / dịch vụ. Mã xác thực này sẽ được gửi tới địa chỉ Email do quý khách đăng ký ban đầu.</p>
+<p>Quý khách dùng ma trận để lấy mã xác thực và thực hiện các nghiệp vụ trên AlphaTrading.</p>
+<p>
+  <img src="/assets/xac-thuc-4.png" alt="watchlist_expand" />
+</p>
+</article>
+ 
+      
+<div class="my-pagging">
+    <div class="left-half">
+        
+        <p><a href="/docs/dat-lenh/place_order/">← Đặt lệnh chứng khoán </a></p>
+        
+    </div>
+    <div class="right-half">
+        
+        <p><a href="/docs/dat-lenh/huy_sua_lenh/"> Hủy/ sửa lệnh →</a></p>
+        
+    </div>
+</div>
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

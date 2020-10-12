@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thông tin chung on AlphaTrading</title>
+    <link>/docs/basics/</link>
+    <description>Recent content in Thông tin chung on AlphaTrading</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>vn-vn</language>
+    
+	<atom:link href="/docs/basics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cài đặt</title>
+      <link>/docs/basics/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/basics/installation/</guid>
+      <description>Cài đặt AlphaTrading  AlphaTrading hiện có mặt trên 2 nền tảng ứng dụng di động phổ biến nhất. Tùy thuộc vào thiết bị, quý khách có thể thực hiện theo hướng dẫn sau.
+Tải nhanh trực tiếp trên thiết bị  Quý khách có thể tải nhanh thông qua đường dẫn tương ứng với thiết bị đang sử dụng:
+Tải AlphaTrading cho thiết bị Android
+  Tải AlphaTrading cho thiết bị iOS</description>
+    </item>
+    
+    <item>
+      <title>Đăng nhập</title>
+      <link>/docs/basics/signin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/basics/signin/</guid>
+      <description>Đăng nhập tài khoản chứng khoán  Để thực hiện đăng nhập tài khoản Chứng Khoán, quý khách có thể thao tác trên ứng dụng AlphaTrading theo các bước sau:
+ Mở ứng dụng AlphaTrading và nhấn vào biểu tượng tài khoản   Nhấn Đăng nhập để tiếp tục    Nhập thông tin tài khoản Chứng khoán đã đăng ký tại Pinetree Securities (Sau đây viết tắt là Pinetree) hoặc Quý khách có thể bật tính năng đăng nhập nhanh bằng Vân tay hoặc Nhận diện khuôn mặt nếu thiết bị Quý khách đang sử dụng có hỗ trợ phương thức nhận diện tương ứng.</description>
+    </item>
+    
+  </channel>
+</rss>

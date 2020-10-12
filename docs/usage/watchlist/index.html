@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Danh sách theo dõi  Danh sách theo dõi trên AlphaTrading cho phép thực hiện các thao tác nhanh với những mã cổ phiếu quý khách quan tâm. Mặc định với tài khoản chứng khoán mới đăng ký tại Pinetree, trong danh sách theo dõi sẽ có sẵn 1 mã Chứng khoán mẫu.
+Bảng giá quen thuộc  AlphaTrading được thiết kế và phát triển hướng tới trải nghiệm Giao dịch chứng khoán hoàn toàn trên thiết bị di động nên chúng tôi mang tới khái niệm danh sách theo dõi tối giản tập trung vào những chỉ số quan trọng nhất của một mã Chứng khoán."><meta property="og:title" content="Danh sách theo dõi" />
+<meta property="og:description" content="Danh sách theo dõi  Danh sách theo dõi trên AlphaTrading cho phép thực hiện các thao tác nhanh với những mã cổ phiếu quý khách quan tâm. Mặc định với tài khoản chứng khoán mới đăng ký tại Pinetree, trong danh sách theo dõi sẽ có sẵn 1 mã Chứng khoán mẫu.
+Bảng giá quen thuộc  AlphaTrading được thiết kế và phát triển hướng tới trải nghiệm Giao dịch chứng khoán hoàn toàn trên thiết bị di động nên chúng tôi mang tới khái niệm danh sách theo dõi tối giản tập trung vào những chỉ số quan trọng nhất của một mã Chứng khoán." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/usage/watchlist/" />
+
+<title>Danh sách theo dõi | AlphaTrading</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.d1f62d9466bf8cb4a1d552100a5f284566e46ac24f1ea24eca4287ea33e2ed9d.css" integrity="sha256-0fYtlGa/jLSh1VIQCl8oRWbkasJPHqJOykKH6jPi7Z0=">
+
+
+<script defer src="/en.search.min.5850c9cfc6145155323c8c86b61c02199fae0a3226af8ae02539defe1d341b45.js" integrity="sha256-WFDJz8YUUVUyPIyGthwCGZ&#43;uCjImr4rgJTne/h00G0U="></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>AlphaTrading</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+
+
+
+
+
+ 
+  
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Thông tin chung</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/basics/installation/" class="">Cài đặt</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/basics/signin/" class="">Đăng nhập</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Hướng dẫn đặt lệnh</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/dat-lenh/place_order/" class="">Đặt lệnh chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/dat-lenh/xac-thuc/" class="">Xác thực hai lớp</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/dat-lenh/huy_sua_lenh/" class="">Hủy/ sửa lệnh</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/dat-lenh/so_lenh/" class="">Sổ lệnh</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Sử dụng AlphaTrading</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/smart-watchlist/" class="">Smart Watchlist</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/morning-brieft/" class="">Bản tin buổi sáng</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/watchlist/" class="active">Danh sách theo dõi</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/stockdetail/" class="">Chi tiết mã Chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/alert/" class="">Cảnh báo chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/asset/" class="">Quản lý tài sản</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/topmover/" class="">Theo dõi thị trường</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Tiện ích tài chính</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/ultilities/" class="">Giới thiệu</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/chuyen-ck-noi-bo/" class="">Chuyển chứng khoán giữa các TK Chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/ckhoan/" class="">Chuyển khoản ngân hàng</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/chuyen-tien-noi-bo/" class="">Chuyển tiền giữa các TK Chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/margin/" class="">Công nợ ký quỹ (margin)</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/cashadvance/" class="">Ứng trước tiền bán</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Tài khoản Chứng khoán</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/account/fundin/" class="">Nạp tiền vào tài khoản Chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/account/fundout/" class="">Rút tiền từ tài khoản Chứng khoán</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+  </ul>
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+
+  Menu
+
+  <label for="toc-control">
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="danh-sách-theo-dõi">Danh sách theo dõi</h1>
+<hr>
+<p>Danh sách theo dõi trên AlphaTrading cho phép thực hiện các thao tác nhanh với những mã cổ phiếu quý khách quan tâm. Mặc định với tài khoản chứng khoán mới đăng ký tại Pinetree, trong danh sách theo dõi sẽ có sẵn 1 mã Chứng khoán mẫu.</p>
+<h2 id="bảng-giá-quen-thuộc">Bảng giá quen thuộc</h2>
+<hr>
+<p>AlphaTrading được thiết kế và phát triển hướng tới trải nghiệm Giao dịch chứng khoán hoàn toàn trên thiết bị di động nên chúng tôi mang tới khái niệm danh sách theo dõi tối giản tập trung vào những chỉ số quan trọng nhất của một mã Chứng khoán. Tuy nhiên, Quý khách có thể truy cập bảng giá quen thuộc như trên máy tính với đầy đủ thông tin.</p>
+<ol>
+<li>
+<p>Từ màn hình <strong>DS theo dõi</strong> hoặc <strong>Tin tức thị trường</strong>, nhấn vào biểu tượng <strong>Mở toàn màn hình</strong></p>
+<p>
+  <img src="/assets/news_expand.jpg" alt="watchlist_expand" />
+</p>
+</li>
+<li>
+<p>Để thoát khỏi chế độ toàn màn hình, nhấn vào biểu tượng <strong>Thoát</strong></p>
+<p>
+  <img src="/assets/exit_expand.jpg" alt="Đăng nhập" />
+</p>
+</li>
+</ol>
+<h2 id="thêm-mã-chứng-khoán-vào-danh-sách-theo-dõi">Thêm mã Chứng khoán vào danh sách theo dõi</h2>
+<hr>
+<ol>
+<li>
+<p>Từ màn hình <strong>DS theo dõi</strong> nhấn vào biểu tượng mở rộng</p>
+<p>
+  <img src="/assets/watchlist_more.jpg" alt="Đăng nhập" />
+</p>
+</li>
+<li>
+<p>Nhấn <strong>Thêm mã</strong></p>
+<p>
+  <img src="/assets/watchlist_command.jpg" alt="Đăng nhập" />
+</p>
+</li>
+<li>
+<p>Trên màn hình <strong>Tìm kiếm</strong>, quý khách có thể gõ mã Chứng khoán, tên công ty hoặc duyệt theo danh mục ngành nghề để tìm được mã Chứng khoán như mong muốn.</p>
+<p>
+  <img src="/assets/search.jpg" alt="Đăng nhập" />
+</p>
+</li>
+</ol>
+<h2 id="chỉnh-sửa--bỏ-theo-dõi-mã-chứng-khoán-từ-danh-sách">Chỉnh sửa / bỏ theo dõi mã Chứng khoán từ danh sách</h2>
+<hr>
+<ol>
+<li>
+<p>Từ màn hình <strong>DS theo dõi</strong> nhấn vào biểu tượng mở rộng</p>
+<p>
+  <img src="/assets/watchlist_more.jpg" alt="DS Theo dõi" />
+</p>
+</li>
+<li>
+<p>Chọn <strong>Sửa DS theo dõi</strong></p>
+<p>
+  <img src="/assets/watchlist_command.jpg" alt="Đăng nhập" />
+</p>
+</li>
+<li>
+<p>Trên màn hình <strong>Chỉnh sửa DS theo dõi</strong> quý khách có thể thực hiện xoá bỏ mã khỏi danh sách bằng cách nhấn vào biểu tượng xoá mã Chứng khoán. Quý khách cũng có thể thực hiện đổi tên danh sách theo dõi theo ý mình thay vì sử dụng tên mặc định</p>
+<p>
+  <img src="/assets/watchlist_edit.jpg" alt="Đăng nhập" />
+</p>
+</li>
+</ol>
+<h2 id="thêm-danh-sách-theo-dõi-mới">Thêm danh sách theo dõi mới</h2>
+<hr>
+<p>AlphaTrading xây dựng sẵn 1 danh sách theo dõi khi cài đặt app thành công. Quý khách hàng có thể tạo thêm danh sách theo dõi khác tuỳ biến theo nhu cầu của mình.</p>
+<ol>
+<li>
+<p>Từ màn hình <strong>DS theo dõi</strong> nhấn vào biểu tượng mở rộng</p>
+<p>
+  <img src="/assets/DS-theo-doi.png" alt="DS Theo dõi" />
+</p>
+</li>
+<li>
+<p>Chọn <strong>Sắp xếp DS theo dõi</strong></p>
+<p>
+  <img src="/assets/watchlist_command.jpg" alt="Đăng nhập" />
+</p>
+</li>
+<li>
+<p>Trên màn hình <strong>Sắp xếp</strong>, quý khách có thể nhấn và giữ biểu tượng <strong>Mũi tên hai chiều</strong> để di chuyển thứ tự ưu tiên cho mỗi mã Chứng khoán</p>
+<p>
+  <img src="/assets/watchlist_arr.jpg" alt="Đăng nhập" />
+</p>
+</li>
+</ol>
+<h2 id="xoá-danh-sách-theo-dõi">Xoá danh sách theo dõi</h2>
+<hr>
+<p>Tuỳ thuộc theo nhu cầu sử dụng, AlphaTrading cho phép xoá danh sách theo dõi trong trường hợp Quý khách muốn thực hiện.</p>
+<p>Lưu ý: <strong>Khi xoá 1 danh sách theo dõi sẽ xoá toàn bộ những mã Chứng khoán đã được thêm vào danh sách và không thể khôi phục. Quý khách cân nhắc trước khi thực hiện.</strong></p>
+<ol>
+<li>
+<p>Từ màn hình <strong>DS theo dõi</strong> nhấn vào biểu tượng mở rộng</p>
+<p>
+  <img src="/assets/DS-theo-doi.png" alt="DS Theo dõi" />
+</p>
+</li>
+<li>
+<p>Chọn <strong>Xoá danh sách theo dõi</strong></p>
+<p>
+  <img src="/assets/watchlist_command.jpg" alt="Đăng nhập" />
+</p>
+</li>
+<li>
+<p>Nhấn <strong>Đồng ý</strong> để xoá danh sách theo dõi đã chọn</p>
+</li>
+</ol>
+</article>
+ 
+      
+<div class="my-pagging">
+    <div class="left-half">
+        
+        <p><a href="/docs/usage/morning-brieft/">← Bản tin buổi sáng </a></p>
+        
+    </div>
+    <div class="right-half">
+        
+        <p><a href="/docs/usage/stockdetail/"> Chi tiết mã Chứng khoán →</a></p>
+        
+    </div>
+</div>
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

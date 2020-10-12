@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Đặt lệnh giao dịch Chứng khoán  Quý khách có thể đặt lệnh giao dịch chứng khoán trên ứng dụng AlphaTrading
+Tìm kiếm cổ phiếu và đặt lệnh  Quý khách có thể vào màn hình đặt lệnh từ nút đặt lệnh nhanh sau đó tìm kiếm mã chứng khoán muốn đặt lệnh.
+ Hoặc đặt lệnh bằng cách Tìm kiếm cổ phiếu ở góc phải màn hình
+ Tại đây Quý khách có thể tìm kiếm cổ phiếu theo mã, ngành, hoặc theo top biến động thị trường."><meta property="og:title" content="Đặt lệnh chứng khoán" />
+<meta property="og:description" content="Đặt lệnh giao dịch Chứng khoán  Quý khách có thể đặt lệnh giao dịch chứng khoán trên ứng dụng AlphaTrading
+Tìm kiếm cổ phiếu và đặt lệnh  Quý khách có thể vào màn hình đặt lệnh từ nút đặt lệnh nhanh sau đó tìm kiếm mã chứng khoán muốn đặt lệnh.
+ Hoặc đặt lệnh bằng cách Tìm kiếm cổ phiếu ở góc phải màn hình
+ Tại đây Quý khách có thể tìm kiếm cổ phiếu theo mã, ngành, hoặc theo top biến động thị trường." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/dat-lenh/place_order/" />
+
+<title>Đặt lệnh chứng khoán | AlphaTrading</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.d1f62d9466bf8cb4a1d552100a5f284566e46ac24f1ea24eca4287ea33e2ed9d.css" integrity="sha256-0fYtlGa/jLSh1VIQCl8oRWbkasJPHqJOykKH6jPi7Z0=">
+
+
+<script defer src="/en.search.min.5850c9cfc6145155323c8c86b61c02199fae0a3226af8ae02539defe1d341b45.js" integrity="sha256-WFDJz8YUUVUyPIyGthwCGZ&#43;uCjImr4rgJTne/h00G0U="></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>AlphaTrading</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+
+
+
+
+
+ 
+  
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Thông tin chung</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/basics/installation/" class="">Cài đặt</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/basics/signin/" class="">Đăng nhập</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Hướng dẫn đặt lệnh</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/dat-lenh/place_order/" class="active">Đặt lệnh chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/dat-lenh/xac-thuc/" class="">Xác thực hai lớp</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/dat-lenh/huy_sua_lenh/" class="">Hủy/ sửa lệnh</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/dat-lenh/so_lenh/" class="">Sổ lệnh</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Sử dụng AlphaTrading</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/smart-watchlist/" class="">Smart Watchlist</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/morning-brieft/" class="">Bản tin buổi sáng</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/watchlist/" class="">Danh sách theo dõi</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/stockdetail/" class="">Chi tiết mã Chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/alert/" class="">Cảnh báo chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/asset/" class="">Quản lý tài sản</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/usage/topmover/" class="">Theo dõi thị trường</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Tiện ích tài chính</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/ultilities/" class="">Giới thiệu</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/chuyen-ck-noi-bo/" class="">Chuyển chứng khoán giữa các TK Chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/ckhoan/" class="">Chuyển khoản ngân hàng</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/chuyen-tien-noi-bo/" class="">Chuyển tiền giữa các TK Chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/margin/" class="">Công nợ ký quỹ (margin)</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/ultilities/cashadvance/" class="">Ứng trước tiền bán</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Tài khoản Chứng khoán</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/account/fundin/" class="">Nạp tiền vào tài khoản Chứng khoán</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/docs/account/fundout/" class="">Rút tiền từ tài khoản Chứng khoán</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+  </ul>
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+
+  Menu
+
+  <label for="toc-control">
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="đặt-lệnh-giao-dịch-chứng-khoán">Đặt lệnh giao dịch Chứng khoán</h1>
+<hr>
+<p>Quý khách có thể đặt lệnh giao dịch chứng khoán trên ứng dụng AlphaTrading</p>
+<h2 id="tìm-kiếm-cổ-phiếu-và-đặt-lệnh">Tìm kiếm cổ phiếu và đặt lệnh</h2>
+<hr>
+<p>Quý khách có thể vào màn hình đặt lệnh từ nút <strong>đặt lệnh nhanh</strong> sau đó tìm kiếm mã chứng khoán muốn đặt lệnh.</p>
+<p>
+  <img src="/assets/dat-lenh-nhanh.png" alt="Đặt lệnh nhanh" />
+</p>
+<p>Hoặc đặt lệnh bằng cách <strong>Tìm kiếm</strong> cổ phiếu ở góc phải màn hình</p>
+<p>
+  <img src="/assets/dat-lenh-tim-kiem.png" alt="Đặt lệnh tìm kiếm" />
+</p>
+<p>Tại đây Quý khách có thể tìm kiếm cổ phiếu theo mã, ngành, hoặc theo top biến động thị trường.</p>
+<p>
+  <img src="/assets/tim-theo-nganh.png" alt="Tìm kiếm" />
+</p>
+<h2 id="đặt-lệnh">Đặt lệnh</h2>
+<hr>
+<ol>
+<li>Để đặt lệnh, quý khách sẽ được yêu cầu nhập <strong>mã xác thực hai lớp</strong> để nâng cao tính bảo mật.</li>
+</ol>
+<p>
+  <img src="/assets/nhap_OTP.jpg" alt="Đặt lệnh" />
+</p>
+<ol start="2">
+<li>Sau đó, Quý khách <strong>chọn Giao dịch</strong> để Mua/Bán cổ phiếu đó.</li>
+</ol>
+<p>
+  <img src="/assets/giao-dich.png" alt="Đặt lệnh" />
+</p>
+<ol start="3">
+<li>Quý khách lưu ý chọn tài khoản trước khi giao dịch. Đầu số N tương ứng tới tiểu khoản thường, đầu số M tương ứng với tiểu khoản margin (tiểu khoản vay ký quỹ).</li>
+</ol>
+<p>
+  <img src="/assets/giao-dich-1.png" alt="Đặt lệnh" />
+</p>
+<ol start="4">
+<li>Sau đó <strong>nhập giá và khối lượng</strong> muốn giao dịch vào các trường tương ứng.</li>
+</ol>
+<p>
+  <img src="/assets/giao-dich%e2%80%932.png" alt="Đặt lệnh" />
+</p>
+<ol start="5">
+<li>Quý khách xác nhận lệnh đặt trước khi lệnh được gửi lên sàn</li>
+</ol>
+<p>
+  <img src="/assets/giao-dich%e2%80%933.png" alt="Đặt lệnh" />
+</p>
+<ol start="6">
+<li>Quý khách có thể xem được lệnh gửi lên sàn tại <strong>Sổ lệnh</strong></li>
+</ol>
+</article>
+ 
+      
+<div class="my-pagging">
+    <div class="left-half">
+        
+    </div>
+    <div class="right-half">
+        
+        <p><a href="/docs/dat-lenh/xac-thuc/"> Xác thực hai lớp →</a></p>
+        
+    </div>
+</div>
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
